@@ -16,6 +16,8 @@
 		ACA445D321A2FA6700D16749 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ACA445D221A2FA6700D16749 /* main.m */; };
 		ACA445DD21A2FA6700D16749 /* applyJobTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ACA445DC21A2FA6700D16749 /* applyJobTestTests.m */; };
 		ACA445E821A2FA6700D16749 /* applyJobTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = ACA445E721A2FA6700D16749 /* applyJobTestUITests.m */; };
+		ACF769D523F2995F0091748F /* TestBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACF769D423F2995F0091748F /* TestBViewController.m */; };
+		ACF769D823F29F790091748F /* TestBScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = ACF769D723F29F790091748F /* TestBScrollView.m */; };
 		ACFB82E921AD5FAD002F4622 /* HitTestView.m in Sources */ = {isa = PBXBuildFile; fileRef = ACFB82E821AD5FAD002F4622 /* HitTestView.m */; };
 		ACFB82EC21AD663F002F4622 /* HitTestButton.m in Sources */ = {isa = PBXBuildFile; fileRef = ACFB82EB21AD663F002F4622 /* HitTestButton.m */; };
 /* End PBXBuildFile section */
@@ -56,6 +58,10 @@
 		ACA445E321A2FA6700D16749 /* applyJobTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = applyJobTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACA445E721A2FA6700D16749 /* applyJobTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = applyJobTestUITests.m; sourceTree = "<group>"; };
 		ACA445E921A2FA6700D16749 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACF769D323F2995F0091748F /* TestBViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestBViewController.h; sourceTree = "<group>"; };
+		ACF769D423F2995F0091748F /* TestBViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestBViewController.m; sourceTree = "<group>"; };
+		ACF769D623F29F790091748F /* TestBScrollView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestBScrollView.h; sourceTree = "<group>"; };
+		ACF769D723F29F790091748F /* TestBScrollView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestBScrollView.m; sourceTree = "<group>"; };
 		ACFB82E721AD5FAD002F4622 /* HitTestView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HitTestView.h; sourceTree = "<group>"; };
 		ACFB82E821AD5FAD002F4622 /* HitTestView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HitTestView.m; sourceTree = "<group>"; };
 		ACFB82EA21AD663F002F4622 /* HitTestButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HitTestButton.h; sourceTree = "<group>"; };
@@ -117,6 +123,10 @@
 				ACA445C921A2FA6600D16749 /* Main.storyboard */,
 				ACA0B6E721A40A6800C534C6 /* TestAViewController.h */,
 				ACA0B6E821A40A6800C534C6 /* TestAViewController.m */,
+				ACF769D323F2995F0091748F /* TestBViewController.h */,
+				ACF769D423F2995F0091748F /* TestBViewController.m */,
+				ACF769D623F29F790091748F /* TestBScrollView.h */,
+				ACF769D723F29F790091748F /* TestBScrollView.m */,
 				ACFB82E721AD5FAD002F4622 /* HitTestView.h */,
 				ACFB82E821AD5FAD002F4622 /* HitTestView.m */,
 				ACFB82EA21AD663F002F4622 /* HitTestButton.h */,
@@ -277,11 +287,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACF769D823F29F790091748F /* TestBScrollView.m in Sources */,
 				ACA0B6E921A40A6800C534C6 /* TestAViewController.m in Sources */,
 				ACA445C821A2FA6600D16749 /* ViewController.m in Sources */,
 				ACA445D321A2FA6700D16749 /* main.m in Sources */,
 				ACFB82E921AD5FAD002F4622 /* HitTestView.m in Sources */,
 				ACA445C521A2FA6600D16749 /* AppDelegate.m in Sources */,
+				ACF769D523F2995F0091748F /* TestBViewController.m in Sources */,
 				ACFB82EC21AD663F002F4622 /* HitTestButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

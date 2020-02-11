@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "TestAViewController.h"
+#import "TestBViewController.h"
 #import "HitTestView.h"
 #import "HitTestButton.h"
 
@@ -68,6 +69,11 @@
     TestAViewController *vc = [[TestAViewController alloc] init];
     
     [self.navigationController pushViewController:vc animated:YES];
+}
+- (IBAction)testBButtonPressed:(UIButton *)sender {
+    TestBViewController *vc = [[TestBViewController alloc] init];
+    
+    [self presentViewController:vc animated:YES completion:nil];
 }
 
 @end
