@@ -11,6 +11,8 @@
 #import "TestBViewController.h"
 #import "HitTestView.h"
 #import "HitTestButton.h"
+#import "Person.h"
+#import "Person+Test.h"
 
 @interface ViewController ()
 
@@ -27,6 +29,11 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     NSLog(@"viewDidLoad");
+    
+    Person *p = [Person new];
+    p.friends = @[@"1234"];
+    NSLog(@"friends: %@", p.friends);
+    [p other];
     
     HitTestButton *hitTestButton = [[HitTestButton alloc] initWithFrame:CGRectMake(100, 154, 175, 300)];
     hitTestButton.layer.zPosition = CGFLOAT_MAX;

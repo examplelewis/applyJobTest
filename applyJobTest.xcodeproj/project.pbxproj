@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AC70DF3123F5D35F0011002C /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = AC70DF3023F5D35F0011002C /* Person.m */; };
+		AC70DF3723F5DA1E0011002C /* Person+Test.m in Sources */ = {isa = PBXBuildFile; fileRef = AC70DF3623F5DA1E0011002C /* Person+Test.m */; };
 		ACA0B6E921A40A6800C534C6 /* TestAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACA0B6E821A40A6800C534C6 /* TestAViewController.m */; };
 		ACA445C521A2FA6600D16749 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ACA445C421A2FA6600D16749 /* AppDelegate.m */; };
 		ACA445C821A2FA6600D16749 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACA445C721A2FA6600D16749 /* ViewController.m */; };
@@ -40,6 +42,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AC70DF2F23F5D35F0011002C /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		AC70DF3023F5D35F0011002C /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		AC70DF3523F5DA1E0011002C /* Person+Test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Person+Test.h"; sourceTree = "<group>"; };
+		AC70DF3623F5DA1E0011002C /* Person+Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Person+Test.m"; sourceTree = "<group>"; };
 		ACA0B6E721A40A6800C534C6 /* TestAViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestAViewController.h; sourceTree = "<group>"; };
 		ACA0B6E821A40A6800C534C6 /* TestAViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestAViewController.m; sourceTree = "<group>"; };
 		ACA445C021A2FA6600D16749 /* applyJobTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = applyJobTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -120,6 +126,10 @@
 				ACA445C421A2FA6600D16749 /* AppDelegate.m */,
 				ACA445C621A2FA6600D16749 /* ViewController.h */,
 				ACA445C721A2FA6600D16749 /* ViewController.m */,
+				AC70DF2F23F5D35F0011002C /* Person.h */,
+				AC70DF3023F5D35F0011002C /* Person.m */,
+				AC70DF3523F5DA1E0011002C /* Person+Test.h */,
+				AC70DF3623F5DA1E0011002C /* Person+Test.m */,
 				ACA445C921A2FA6600D16749 /* Main.storyboard */,
 				ACA0B6E721A40A6800C534C6 /* TestAViewController.h */,
 				ACA0B6E821A40A6800C534C6 /* TestAViewController.m */,
@@ -287,12 +297,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC70DF3723F5DA1E0011002C /* Person+Test.m in Sources */,
 				ACF769D823F29F790091748F /* TestBScrollView.m in Sources */,
 				ACA0B6E921A40A6800C534C6 /* TestAViewController.m in Sources */,
 				ACA445C821A2FA6600D16749 /* ViewController.m in Sources */,
 				ACA445D321A2FA6700D16749 /* main.m in Sources */,
 				ACFB82E921AD5FAD002F4622 /* HitTestView.m in Sources */,
 				ACA445C521A2FA6600D16749 /* AppDelegate.m in Sources */,
+				AC70DF3123F5D35F0011002C /* Person.m in Sources */,
 				ACF769D523F2995F0091748F /* TestBViewController.m in Sources */,
 				ACFB82EC21AD663F002F4622 /* HitTestButton.m in Sources */,
 			);
