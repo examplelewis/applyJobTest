@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AC06ADA423FE5B04003E605F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AC06ADA323FE5B04003E605F /* InfoPlist.strings */; };
+		AC06ADA723FE5E55003E605F /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = AC06ADA923FE5E55003E605F /* icon.png */; };
 		AC70DF3123F5D35F0011002C /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = AC70DF3023F5D35F0011002C /* Person.m */; };
 		AC70DF3723F5DA1E0011002C /* Person+Test.m in Sources */ = {isa = PBXBuildFile; fileRef = AC70DF3623F5DA1E0011002C /* Person+Test.m */; };
 		ACA0B6E921A40A6800C534C6 /* TestAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACA0B6E821A40A6800C534C6 /* TestAViewController.m */; };
@@ -42,6 +44,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AC06ADA123FE59F7003E605F /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		AC06ADA223FE59F8003E605F /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		AC06ADA323FE5B04003E605F /* InfoPlist.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = InfoPlist.strings; sourceTree = "<group>"; };
+		AC06ADA823FE5E55003E605F /* Base */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Base; path = Base.lproj/icon.png; sourceTree = "<group>"; };
+		AC06ADAA23FE5E76003E605F /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "zh-Hans"; path = "zh-Hans.lproj/icon.png"; sourceTree = "<group>"; };
 		AC70DF2F23F5D35F0011002C /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
 		AC70DF3023F5D35F0011002C /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 		AC70DF3523F5DA1E0011002C /* Person+Test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Person+Test.h"; sourceTree = "<group>"; };
@@ -141,9 +148,11 @@
 				ACFB82E821AD5FAD002F4622 /* HitTestView.m */,
 				ACFB82EA21AD663F002F4622 /* HitTestButton.h */,
 				ACFB82EB21AD663F002F4622 /* HitTestButton.m */,
+				AC06ADA923FE5E55003E605F /* icon.png */,
 				ACA445CC21A2FA6700D16749 /* Assets.xcassets */,
 				ACA445CE21A2FA6700D16749 /* LaunchScreen.storyboard */,
 				ACA445D121A2FA6700D16749 /* Info.plist */,
+				AC06ADA323FE5B04003E605F /* InfoPlist.strings */,
 				ACA445D221A2FA6700D16749 /* main.m */,
 			);
 			path = applyJobTest;
@@ -252,6 +261,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hans",
 			);
 			mainGroup = ACA445B721A2FA6600D16749;
 			productRefGroup = ACA445C121A2FA6600D16749 /* Products */;
@@ -271,6 +281,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				ACA445D021A2FA6700D16749 /* LaunchScreen.storyboard in Resources */,
+				AC06ADA723FE5E55003E605F /* icon.png in Resources */,
+				AC06ADA423FE5B04003E605F /* InfoPlist.strings in Resources */,
 				ACA445CD21A2FA6700D16749 /* Assets.xcassets in Resources */,
 				ACA445CB21A2FA6600D16749 /* Main.storyboard in Resources */,
 			);
@@ -342,10 +354,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		AC06ADA923FE5E55003E605F /* icon.png */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC06ADA823FE5E55003E605F /* Base */,
+				AC06ADAA23FE5E76003E605F /* zh-Hans */,
+			);
+			name = icon.png;
+			sourceTree = "<group>";
+		};
 		ACA445C921A2FA6600D16749 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				ACA445CA21A2FA6600D16749 /* Base */,
+				AC06ADA123FE59F7003E605F /* zh-Hans */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -354,6 +376,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				ACA445CF21A2FA6700D16749 /* Base */,
+				AC06ADA223FE59F8003E605F /* zh-Hans */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -365,6 +388,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -424,6 +448,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
