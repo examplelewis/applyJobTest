@@ -7,8 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AC06AD9D23FE54BD003E605F /* PersonalInformationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AC06AD9C23FE54BD003E605F /* PersonalInformationTests.m */; };
+		AC06ADA023FE54F5003E605F /* ResponsePersonalInformation.m in Sources */ = {isa = PBXBuildFile; fileRef = AC06AD9F23FE54F5003E605F /* ResponsePersonalInformation.m */; };
 		AC06ADA423FE5B04003E605F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AC06ADA323FE5B04003E605F /* InfoPlist.strings */; };
 		AC06ADA723FE5E55003E605F /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = AC06ADA923FE5E55003E605F /* icon.png */; };
+		AC0CBF4623FD9C2F0063A75D /* UIViewController+TestRuntime.m in Sources */ = {isa = PBXBuildFile; fileRef = AC0CBF4523FD9C2F0063A75D /* UIViewController+TestRuntime.m */; };
 		AC70DF3123F5D35F0011002C /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = AC70DF3023F5D35F0011002C /* Person.m */; };
 		AC70DF3723F5DA1E0011002C /* Person+Test.m in Sources */ = {isa = PBXBuildFile; fileRef = AC70DF3623F5DA1E0011002C /* Person+Test.m */; };
 		ACA0B6E921A40A6800C534C6 /* TestAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACA0B6E821A40A6800C534C6 /* TestAViewController.m */; };
@@ -44,11 +47,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AC06AD9C23FE54BD003E605F /* PersonalInformationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PersonalInformationTests.m; sourceTree = "<group>"; };
+		AC06AD9E23FE54F5003E605F /* ResponsePersonalInformation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ResponsePersonalInformation.h; sourceTree = "<group>"; };
+		AC06AD9F23FE54F5003E605F /* ResponsePersonalInformation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ResponsePersonalInformation.m; sourceTree = "<group>"; };
 		AC06ADA123FE59F7003E605F /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
 		AC06ADA223FE59F8003E605F /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
 		AC06ADA323FE5B04003E605F /* InfoPlist.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = InfoPlist.strings; sourceTree = "<group>"; };
 		AC06ADA823FE5E55003E605F /* Base */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Base; path = Base.lproj/icon.png; sourceTree = "<group>"; };
 		AC06ADAA23FE5E76003E605F /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "zh-Hans"; path = "zh-Hans.lproj/icon.png"; sourceTree = "<group>"; };
+		AC0CBF4423FD9C2F0063A75D /* UIViewController+TestRuntime.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+TestRuntime.h"; sourceTree = "<group>"; };
+		AC0CBF4523FD9C2F0063A75D /* UIViewController+TestRuntime.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+TestRuntime.m"; sourceTree = "<group>"; };
 		AC70DF2F23F5D35F0011002C /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
 		AC70DF3023F5D35F0011002C /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 		AC70DF3523F5DA1E0011002C /* Person+Test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Person+Test.h"; sourceTree = "<group>"; };
@@ -137,6 +145,8 @@
 				AC70DF3023F5D35F0011002C /* Person.m */,
 				AC70DF3523F5DA1E0011002C /* Person+Test.h */,
 				AC70DF3623F5DA1E0011002C /* Person+Test.m */,
+				AC0CBF4423FD9C2F0063A75D /* UIViewController+TestRuntime.h */,
+				AC0CBF4523FD9C2F0063A75D /* UIViewController+TestRuntime.m */,
 				ACA445C921A2FA6600D16749 /* Main.storyboard */,
 				ACA0B6E721A40A6800C534C6 /* TestAViewController.h */,
 				ACA0B6E821A40A6800C534C6 /* TestAViewController.m */,
@@ -148,6 +158,8 @@
 				ACFB82E821AD5FAD002F4622 /* HitTestView.m */,
 				ACFB82EA21AD663F002F4622 /* HitTestButton.h */,
 				ACFB82EB21AD663F002F4622 /* HitTestButton.m */,
+				AC06AD9E23FE54F5003E605F /* ResponsePersonalInformation.h */,
+				AC06AD9F23FE54F5003E605F /* ResponsePersonalInformation.m */,
 				AC06ADA923FE5E55003E605F /* icon.png */,
 				ACA445CC21A2FA6700D16749 /* Assets.xcassets */,
 				ACA445CE21A2FA6700D16749 /* LaunchScreen.storyboard */,
@@ -162,6 +174,7 @@
 			isa = PBXGroup;
 			children = (
 				ACA445DC21A2FA6700D16749 /* applyJobTestTests.m */,
+				AC06AD9C23FE54BD003E605F /* PersonalInformationTests.m */,
 				ACA445DE21A2FA6700D16749 /* Info.plist */,
 			);
 			path = applyJobTestTests;
@@ -310,6 +323,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AC70DF3723F5DA1E0011002C /* Person+Test.m in Sources */,
+				AC0CBF4623FD9C2F0063A75D /* UIViewController+TestRuntime.m in Sources */,
 				ACF769D823F29F790091748F /* TestBScrollView.m in Sources */,
 				ACA0B6E921A40A6800C534C6 /* TestAViewController.m in Sources */,
 				ACA445C821A2FA6600D16749 /* ViewController.m in Sources */,
@@ -317,6 +331,7 @@
 				ACFB82E921AD5FAD002F4622 /* HitTestView.m in Sources */,
 				ACA445C521A2FA6600D16749 /* AppDelegate.m in Sources */,
 				AC70DF3123F5D35F0011002C /* Person.m in Sources */,
+				AC06ADA023FE54F5003E605F /* ResponsePersonalInformation.m in Sources */,
 				ACF769D523F2995F0091748F /* TestBViewController.m in Sources */,
 				ACFB82EC21AD663F002F4622 /* HitTestButton.m in Sources */,
 			);
@@ -326,6 +341,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC06AD9D23FE54BD003E605F /* PersonalInformationTests.m in Sources */,
 				ACA445DD21A2FA6700D16749 /* applyJobTestTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -76,7 +76,7 @@
 }
 - (void)reloadData {
     for (int i = 0; i < _colorsArray.count; i ++) {
-        UIView *view = [[UIView alloc] initWithFrame:CGRectMake(i * screenWidth + 10, 0, screenWidth - 20, 150)];
+        UIView *view = [[UIView alloc] initWithFrame:CGRectMake(i * screenWidth, 0, screenWidth, 150)];
         view.tag = 100 + i;
         view.backgroundColor = _colorsArray[i];
         

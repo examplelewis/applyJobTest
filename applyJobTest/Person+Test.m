@@ -17,6 +17,8 @@ static const char *kFriendsPropertyKey = "kFriendsPropertyKey";
 
 - (void)setFriends:(NSArray *)friends {
     objc_setAssociatedObject(self, kFriendsPropertyKey, friends, OBJC_ASSOCIATION_COPY_NONATOMIC);
+    
+    Method me = class_getClassMethod(self, @selector(setFriends:));
 }
 
 - (NSArray *)friends {
